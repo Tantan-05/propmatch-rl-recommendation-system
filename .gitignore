@@ -1,0 +1,28 @@
+# Environment and runtime logs
+job.env
+access.log
+Jupyter.*
+*.log
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Frontend build and dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Generated training and simulation data (not required for inference)
+rl_interactions*.csv
+simulated_users.csv
+top4_recommendations.csv
+recommendation_metrics.json
+simulation_metadata.json
+prepared_rl_data/train_reference.csv
+prepared_rl_data/test_reference.csv
+prepared_rl_data/validation_reference.csv
+prepared_rl_data/train_users.csv
+prepared_rl_data/test_users.csv
+prepared_rl_data/validation_users.csv
+prepared_rl_data/X_*.npz
+prepared_rl_data/y_*.npy

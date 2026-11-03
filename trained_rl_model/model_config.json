@@ -1,0 +1,18 @@
+{
+    "model_type": "contextual_bandit_reward_estimator",
+    "architecture": [
+        497,
+        256,
+        128,
+        64,
+        1
+    ],
+    "output_activation": "sigmoid",
+    "input_features": 497,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "epochs_requested": 30,
+    "best_epoch": 20,
+    "best_validation_rmse": 0.008439342019141654,
+    "random_seed": 42
+}

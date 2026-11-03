@@ -1,0 +1,45 @@
+{
+    "input_file": "rl_interactions_v2.csv",
+    "rows": 500000,
+    "unique_users": 10000,
+    "train_users": 8000,
+    "validation_users": 1000,
+    "test_users": 1000,
+    "train_rows": 400000,
+    "validation_rows": 50000,
+    "test_rows": 50000,
+    "numeric_features": [
+        "price",
+        "area",
+        "price_per_sqft",
+        "bedroom_num",
+        "bathroom_num",
+        "balcony_num",
+        "age",
+        "budget_max",
+        "min_area",
+        "max_area",
+        "bedroom_pref",
+        "bathroom_pref",
+        "balcony_pref",
+        "max_age"
+    ],
+    "categorical_features": [
+        "locality",
+        "city",
+        "property_type",
+        "furnished",
+        "locality_pref",
+        "city_pref",
+        "property_type_pref",
+        "furnished_pref"
+    ],
+    "input_feature_count": 497,
+    "target": "reward",
+    "target_range": [
+        0.0,
+        1.0
+    ],
+    "split_method": "user-level, 80/10/10",
+    "random_state": 42
+}

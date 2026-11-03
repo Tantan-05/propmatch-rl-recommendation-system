@@ -1,0 +1,47 @@
+{
+    "version": "V2",
+    "property_file": "filtered_data.csv",
+    "user_file": "simulated_users.csv",
+    "property_count": 60255,
+    "user_count": 10000,
+    "total_candidates_per_user": 50,
+    "candidate_distribution": {
+        "strong": 20,
+        "moderate": 15,
+        "weak": 15
+    },
+    "interaction_count": 500000,
+    "reward_statistics": {
+        "minimum": 0.07211072664359862,
+        "maximum": 1.0,
+        "mean": 0.6873352959495516,
+        "median": 0.6615833173735353,
+        "std": 0.22045679169167048
+    },
+    "reward_distribution": {
+        "0.00-0.20": 258,
+        "0.20-0.40": 54831,
+        "0.40-0.50": 64535,
+        "0.50-0.60": 84962,
+        "0.60-0.70": 72424,
+        "0.70-0.80": 43821,
+        "0.80-0.90": 39189,
+        "0.90-1.00": 139980
+    },
+    "reward_weights": {
+        "budget": 0.2,
+        "area": 0.12,
+        "bedroom": 0.15,
+        "bathroom": 0.08,
+        "balcony": 0.04,
+        "locality": 0.15,
+        "city": 0.08,
+        "property_type": 0.07,
+        "furnished": 0.06,
+        "age": 0.05
+    },
+    "reward_range": {
+        "minimum": 0.0,
+        "maximum": 1.0
+    }
+}
